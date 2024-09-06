@@ -23,6 +23,7 @@ jobs:
       run: |
         python -m venv env
         source env/bin/activate
+        pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Test API
@@ -30,3 +31,8 @@ jobs:
         uvicorn app.main:app --host 0.0.0.0 --port 8000 &
         sleep 5 # Give the server time to start
         curl -X POST "http://127.0.0.1:8000/generate" -H "Content-Type: application/json" -d '{"query": "Where is Gate 12?"}'
+    
+    - name: Stop server
+      if: success() || failure()
+      run: |
+        pkill uvicorn
