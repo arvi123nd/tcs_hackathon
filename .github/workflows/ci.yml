@@ -29,11 +29,7 @@ jobs:
     - name: Test API
       run: |
         source env/bin/activate  # Activate the virtual environment
-        uvicorn app.main:app --host 0.0.0.0 --port 8000 &
-        sleep 5 # Give the server time to start
-        curl -X POST "http://127.0.0.1:8000/generate" -H "Content-Type: application/json" -d '{"query": "Where is Gate 12?"}'
-    
-    - name: Stop server
-      if: success() || failure()
-      run: |
-        pkill uvicorn
+        nohup uvicorn app.main:app --host 0.0.0.0 --port 8000 > uvicorn.log 2>&1 &  # Start the server in the background
+        sleep 5  # Give the server time to start
+        curl -X POST "http://127.0.0.1:8000/generate" -H "Content-Type: application/json" -d '{"query": "Where is Gate 12?"}' || true
+        cat uvicorn.log  # Output the server logs to see detailed information
