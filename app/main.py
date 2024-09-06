@@ -44,7 +44,7 @@ async def generate_response(request: QueryRequest):
         # If the static data search returns 'not found' message, use LLaMA 3.1 model via Ollama
         response_text = await use_llama_model_async(query)
     
-    return {"response": response_text}
+    return {"airport_name": static_data.get("airport_name"), "response": response_text}
 
 def normalize(text):
     """Helper function to normalize text."""
