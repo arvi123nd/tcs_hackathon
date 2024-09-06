@@ -28,6 +28,7 @@ jobs:
 
     - name: Test API
       run: |
+        source env/bin/activate  # Activate the virtual environment
         uvicorn app.main:app --host 0.0.0.0 --port 8000 &
         sleep 5 # Give the server time to start
         curl -X POST "http://127.0.0.1:8000/generate" -H "Content-Type: application/json" -d '{"query": "Where is Gate 12?"}'
