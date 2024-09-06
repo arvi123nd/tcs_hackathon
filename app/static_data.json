@@ -1,95 +1,97 @@
 {
-  "gates": [
-      {
-          "gate": "Gate 1",
-          "info": "Gate 1 is located near the east entrance. It's the first gate you will see upon entering the terminal.",
-          "amenities": ["Restrooms", "Charging Stations", "Comfortable Seating"]
-      },
-      {
-          "gate": "Gate 2",
-          "info": "Gate 2 is located next to the baggage claim area. It has a view of the runway.",
-          "amenities": ["Food Court", "Shops", "Restrooms"]
-      },
-      {
-          "gate": "Gate 3",
-          "info": "Gate 3 is situated in the north wing. It is close to several food outlets.",
-          "amenities": ["Food Outlets", "Restrooms", "Information Desk"]
-      },
-      {
-          "gate": "Gate 12",
-          "info": "Gate 12 is located near the central food court. It has comfortable seating and charging stations.",
-          "amenities": ["Food Court", "Charging Stations", "Restrooms"]
-      },
-      {
-          "gate": "Gate 15",
-          "info": "Gate 15 is close to the north terminal exit. It is near the shops and offers free Wi-Fi.",
-          "amenities": ["Shops", "Free Wi-Fi", "Restrooms"]
-      }
-  ],
-  "restaurants": [
-      {
-          "name": "The Gourmet Bistro",
-          "location": "Near Gate 2",
-          "cuisine": "International",
-          "details": "Offers a variety of international dishes and has both indoor and outdoor seating."
-      },
-      {
-          "name": "Fast Bite",
-          "location": "Near Gate 3",
-          "cuisine": "Fast Food",
-          "details": "Quick service with a selection of burgers, fries, and drinks."
-      },
-      {
-          "name": "Cafe Express",
-          "location": "Near Gate 12",
-          "cuisine": "Cafe",
-          "details": "Provides coffee, pastries, and light snacks."
-      }
-  ],
-  "lounges": [
-      {
-          "name": "VIP Lounge",
-          "location": "South Terminal",
-          "details": "Exclusive lounge with premium services including snacks, beverages, and comfortable seating."
-      },
-      {
-          "name": "Business Lounge",
-          "location": "North Wing",
-          "details": "Quiet area with workstations, Wi-Fi, and refreshments."
-      }
-  ],
-  "services": [
-      {
-          "name": "Lost and Found",
-          "location": "Main Concourse",
-          "details": "For lost items and assistance, located in the central area of the terminal."
-      },
-      {
-          "name": "Information Desk",
-          "location": "Near Gate 3",
-          "details": "Provides information on flight status, directions, and general inquiries."
-      },
-      {
-          "name": "Baggage Services",
-          "location": "Baggage Claim Area",
-          "details": "For lost luggage and baggage-related services."
-      }
-  ],
-  "directions": [
-      {
-          "start": "East Entrance",
-          "end": "Gate 12",
-          "details": "Follow signs to the central food court. Gate 12 is located nearby."
-      },
-      {
-          "start": "North Terminal Exit",
-          "end": "Gate 15",
-          "details": "Walk straight past the shops and you will reach Gate 15."
-      },
-      {
-          "start": "Main Concourse",
-          "end": "VIP Lounge",
-          "details": "Head towards the south terminal. The VIP Lounge is located in the southern part of the terminal."
-      }
-  ]
-}
+    "airport_name": "Schiphol Airport",
+    "gates": [
+        {
+            "gate": "Gate 1",
+            "info": "Gate 1 is located near the east entrance. It's the first gate you will see upon entering the terminal.",
+            "amenities": ["Restrooms", "Charging Stations", "Comfortable Seating"]
+        },
+        {
+            "gate": "Gate 2",
+            "info": "Gate 2 is located next to the baggage claim area. It has a view of the runway.",
+            "amenities": ["Food Court", "Shops", "Restrooms"]
+        },
+        {
+            "gate": "Gate 3",
+            "info": "Gate 3 is situated in the north wing. It is close to several food outlets.",
+            "amenities": ["Food Outlets", "Restrooms", "Information Desk"]
+        },
+        {
+            "gate": "Gate 12",
+            "info": "Gate 12 is located near the central food court. It has comfortable seating and charging stations.",
+            "amenities": ["Food Court", "Charging Stations", "Restrooms"]
+        },
+        {
+            "gate": "Gate 15",
+            "info": "Gate 15 is close to the north terminal exit. It is near the shops and offers free Wi-Fi.",
+            "amenities": ["Shops", "Free Wi-Fi", "Restrooms"]
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "The Gourmet Bistro",
+            "location": "Near Gate 2",
+            "cuisine": "International",
+            "details": "Offers a variety of international dishes and has both indoor and outdoor seating."
+        },
+        {
+            "name": "Fast Bite",
+            "location": "Near Gate 3",
+            "cuisine": "Fast Food",
+            "details": "Quick service with a selection of burgers, fries, and drinks."
+        },
+        {
+            "name": "Cafe Express",
+            "location": "Near Gate 12",
+            "cuisine": "Cafe",
+            "details": "Provides coffee, pastries, and light snacks."
+        }
+    ],
+    "lounges": [
+        {
+            "name": "VIP Lounge",
+            "location": "South Terminal",
+            "details": "Exclusive lounge with premium services including snacks, beverages, and comfortable seating."
+        },
+        {
+            "name": "Business Lounge",
+            "location": "North Wing",
+            "details": "Quiet area with workstations, Wi-Fi, and refreshments."
+        }
+    ],
+    "services": [
+        {
+            "name": "Lost and Found",
+            "location": "Main Concourse",
+            "details": "For lost items and assistance, located in the central area of the terminal."
+        },
+        {
+            "name": "Information Desk",
+            "location": "Near Gate 3",
+            "details": "Provides information on flight status, directions, and general inquiries."
+        },
+        {
+            "name": "Baggage Services",
+            "location": "Baggage Claim Area",
+            "details": "For lost luggage and baggage-related services."
+        }
+    ],
+    "directions": [
+        {
+            "start": "East Entrance",
+            "end": "Gate 12",
+            "details": "Follow signs to the central food court. Gate 12 is located nearby."
+        },
+        {
+            "start": "North Terminal Exit",
+            "end": "Gate 15",
+            "details": "Walk straight past the shops and you will reach Gate 15."
+        },
+        {
+            "start": "Main Concourse",
+            "end": "VIP Lounge",
+            "details": "Head towards the south terminal. The VIP Lounge is located in the southern part of the terminal."
+        }
+    ]
+  }
+  
