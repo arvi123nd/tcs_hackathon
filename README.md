@@ -21,6 +21,7 @@ This project uses the LLaMA 3.1 model via the Ollama platform to provide a wayfi
 4. uvicorn app.main:app --reload
 
 Usage
+http://127.0.0.1:8000/static/index.html
 
 Send POST requests to http://127.0.0.1:8000/generate with a JSON body containing a query, e.g.:
 

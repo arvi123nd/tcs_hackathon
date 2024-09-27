@@ -29,13 +29,13 @@
     ],
     "restaurants": [
         {
-            "name": "The Gourmet Bistro",
+            "name": "KFC",
             "location": "Near Gate 2",
             "cuisine": "International",
             "details": "Offers a variety of international dishes and has both indoor and outdoor seating."
         },
         {
-            "name": "Fast Bite",
+            "name": "Mcdonalds",
             "location": "Near Gate 3",
             "cuisine": "Fast Food",
             "details": "Quick service with a selection of burgers, fries, and drinks."
